@@ -22,7 +22,8 @@ const Home = () => {
           <MangaCarousel/>
         <View className="flex h-full w-full">
           <Text className="text-heading1 text-2xl font-bold">Up Comming</Text>
-          <Link href={"/details/2"} className="text-body text2xl">H</Link>
+          <Link href={"/home/2"} className="text-body text2xl">Hello</Link>
+          <Link href={"/(root)/1"} className="text-body text-2xl font-bold">Manga</Link>
         </View>
         </View>
       </ScrollView>

@@ -9,7 +9,9 @@ export default function Index() {
       <Image className="object-contain w-[10rem] h-[10rem] border-containers rounded-full border-2" alt="LOGO" src=""/>
       <Text className="text-4xl font-black text-body">OkuRealm</Text>
 
-      <Link href={"/(home)"} className="text-body font-semibold text-2xl underline uppercase">Home</Link>
+      <Link href={"/home"} className="text-body font-semibold text-2xl underline uppercase">Home</Link>
+
+      <Link href={"/setting"} className="text-heading3 font-bold text-2xl ">Settings</Link>
   
      <TouchableOpacity className="rounded-lg px-5 py-3 bg-primary absolute bottom-[2rem]">
       <Text className=" font-semibold text-body text-xl">Try Again</Text>
